@@ -1,0 +1,17 @@
+{
+  "name": "primeprint_store_bot",
+  "version": "1.0.0",
+  "description": "Telegram Print on Demand Store Bot",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "sync": "node syncProducts.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.4.0",
+    "mongoose": "^8.3.0",
+    "node-cron": "^4.2.1",
+    "node-telegram-bot-api": "^0.61.0"
+  }
+}
